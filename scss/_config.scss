@@ -5,7 +5,7 @@ $homeImage: url("../img/background.jpg");
 $backgroundOpacity: 0.9;
 
 // Mixin
-@mixin ease-out {
+@mixin ease_out {
   transition: all 0.5s ease-out;
 }
 
