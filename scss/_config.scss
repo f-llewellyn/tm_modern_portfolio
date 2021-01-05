@@ -35,13 +35,13 @@ $backgroundOpacity: 0.9;
   @if (lightness($colour) > 40) {
     @return #444;
   } @else {
-    @return #fff
+    @return #fff;
   }
 }
 
 // Media Query Mixins
 @mixin mediaSm {
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width:600px) {
     @content;
   }
 }
